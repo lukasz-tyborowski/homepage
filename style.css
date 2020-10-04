@@ -1,0 +1,43 @@
+body {
+    background: #F7F7FF
+}
+
+section {
+    background: #ffffff
+}
+
+h1 {
+    color: navy
+}
+
+p {
+    color:rgb(37, 1, 1);
+}
+
+h2 {
+    color: #1460AA
+}
+
+h3 {
+    color: #db2020
+}
+
+a {
+    color:orange;
+}
+
+header a {
+    color: darkorchid;
+}
+
+.naglowek {
+    color: #598392
+}
+
+.special-header {
+    color:black;
+}
+
+.footer{
+    color: darkred
+}

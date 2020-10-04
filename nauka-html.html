@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tyborek - nauka HTML</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="nauka-html.html">Nauka HTML</a>
+            <a href="nauka-css.html">Nauka CSS</a>
+            <a href="przydatne.html">Przydatne</a>
+        </nav>
+    </header>
+
+    <main>
+        <header id="top">
+            <h1 class="naglowek">Nauka HTML-a</h1>
+            <img src="zmleka.jpg" alt="zmleka" />
+        </header>
+
+        <section id="notatki">
+            <h2>Notatki z kursu</h2>
+            <article>
+                <h3>Czym jest HTML?</h3>
+                <p>- opakowuje i opisuje treść strony</p>
+                <p>- mówi przeglądarce o strukturze dokumentu (i o tym co ma wszytać)</p>
+                <p>- posiada swoją zdefiniowaną składnie</p>
+                <p>- nie jest językiem programowania, jest językiem znaczników (Markup Language)</p>
+                <p>- aktualną rekomendowaną wersją jest 5.2</p>
+                <p>- cała specyfikacja jest na <a href="https://www.w3.org/TR/html52/">stronie w3c</a></p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Znaczniki w nawiasach ostrych - TRZEBA O NICH PAMIĘTAĆ!</h3>
+            <article>
+                <p>main - główna część dokumentu</p>
+                <p>section - sekcje dokumentu, logiczny podział</p>
+                <p>article - samodzielne treści</p>
+                <p>header - nagłówek - dokumentu/sekcji/tytułu</p>
+                <p>footer - stopka - dokumentu/sekcji</p>
+                <p>h1-h6 - tekstowe nagłówki tytułowe - dokumentu/sekcji - numerujemy od 1 do 6 w zaelżności od ważności
+                    tego nagłówka</p>
+                <p>p - paragraf/akapit</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <b>Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic ważnego. <a href="#top">Wróć na górę strony</a></b>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
