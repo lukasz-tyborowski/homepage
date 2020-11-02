@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tyborek - przydatne</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="przydatne.html">Przydatne</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        <a class="navigation__link" href="przydatne.html">Przydatne</a>
+      </nav>
     </header>
 
-    <main>
-        <header id="top">
-            <h1 class="naglowek">Przydatne</h1>
-            <img src="ochuju.jpg" alt="ochuju" />
-        </header>
+    <main class="main">
+      <header id="top">
+        <h1 class="naglowek">Przydatne</h1>
+        <img class="img-displayed" src="ochuju.jpg" alt="ochuju" />
+      </header>
+      <section>
+        <h2>TERMINAL - skróty</h2>
+        <article class="week-summary">
+          <p>cd C:\ - przejście do głównego katalogu na dysku C</p>
+          <p>dir - wypisanie zawartości katalogu</p>
+          <p>cd .. - przejście do katalogu wyżej</p>
+          <p>
+            cd nazwa-katalogu - przejście do katalogu o nazwie nazwa-katalogu
+          </p>
+          <p>code. - uruchomienie Visual Studio Code w danym katalogu</p>
+          <p>cs - wyświetlenie aktualnej ścieżki</p>
+          <p>
+            mkdir nazwa-katalogu - stworzenie katalogu o nazwie nazwa-katalogu
+          </p>
+        </article>
+      </section>
     </main>
 
-    <section>
-        <h2>TERMINAL - skróty</h2>
-        <article>
-            <p>cd C:\ - przejście do głównego katalogu na dysku C</p>
-            <p>dir - wypisanie zawartości katalogu</p>
-            <p>cd .. - przejście do katalogu wyżej</p>
-            <p>cd nazwa-katalogu - przejście do katalogu o nazwie nazwa-katalogu</p>
-            <p>code. - uruchomienie Visual Studio Code w danym katalogu</p>
-            <p>cs - wyświetlenie aktualnej ścieżki</p>
-            <p>mkdir nazwa-katalogu - stworzenie katalogu o nazwie nazwa-katalogu</p>
-        </article>
-    </section>
-
     <footer class="footer">
-        <b>Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic ważnego. <a href="#top">Wróć na górę
-                strony</a></b>
+      <b
+        >Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic
+        ważnego. <a href="#top">Wróć na górę strony</a></b
+      >
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>

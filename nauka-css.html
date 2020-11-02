@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tyborek - nauka CSS</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="przydatne.html">Przydatne</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        <a class="navigation__link" href="przydatne.html">Przydatne</a>
+      </nav>
     </header>
-    
-    <main>
-        <header id="top">
-            <h1 class="naglowek">Nauka CSS-a</h1>
-            <img src="pieski.jpg" alt="pieski"/>
-        </header>
 
-        <section id="notatki">
-            <h2>Notatki z kursu</h2>
-            <article>
-                <h3>CSS = Cascading Style Sheets (Kaskadowe arkusze stylów)</h3>
-                <p>- odpowiadają za prezentacje treści strony</p>
-                <p>- nie mają jednej wersji (rozwój modułów), potocznie mówi się, że aktualna wersja to 3</p>
-                <p>- przeglądarki potrafią różnie interpretować CSS co prowadzi do tego, że...</p>
-                <p>- ...pisanie stylów powoduje wiele frustracji u programistów (ale jest też miłym wyzwaniem :))</p>
-                <p>- cała specyfikacja jest na <a href="https://www.w3.org/TR/CSS/">stronie w3c</a></p>
-            </article>
-        </section>
+    <main class="main">
+      <header id="top">
+        <h1 class="naglowek">Nauka CSS-a</h1>
+        <img class="img-displayed" src="pieski.jpg" alt="pieski" />
+      </header>
 
-        <h2>dupa</h2>
-        <section>
-            <article>
-                <h3>dupa</h3>
-                <p>dupa</p>
-                <p>dupa</p>
-                <p>dupa</p>
-                <p>dupa</p>
-            </article>
-        </section>
+      <section id="notatki">
+        <h2>Notatki z kursu</h2>
+        <article class="week-summary">
+          <h3>CSS = Cascading Style Sheets (Kaskadowe arkusze stylów)</h3>
+          <p>- odpowiadają za prezentacje treści strony</p>
+          <p>
+            - nie mają jednej wersji (rozwój modułów), potocznie mówi się, że
+            aktualna wersja to 3
+          </p>
+          <p>
+            - przeglądarki potrafią różnie interpretować CSS co prowadzi do
+            tego, że...
+          </p>
+          <p>
+            - ...pisanie stylów powoduje wiele frustracji u programistów (ale
+            jest też miłym wyzwaniem :))
+          </p>
+          <p>
+            - cała specyfikacja jest na
+            <a href="https://www.w3.org/TR/CSS/">stronie w3c</a>
+          </p>
+        </article>
+      </section>
 
+      <h2>dupa</h2>
+      <section>
+        <article class="week-summary">
+          <h3>dupa</h3>
+          <p>dupa</p>
+          <p>dupa</p>
+          <p>dupa</p>
+          <p>dupa</p>
+        </article>
+      </section>
     </main>
 
     <footer class="footer">
-        <b>Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic ważnego. <a href="#top">Wróć na górę strony</a></b>
+      <b
+        >Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic
+        ważnego. <a href="#top">Wróć na górę strony</a></b
+      >
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
