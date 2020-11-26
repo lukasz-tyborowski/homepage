@@ -1,10 +1,10 @@
 .main {
   background: rgb(255, 255, 195);
-  width: 800px;
+  max-width: 800px;
   margin: 0px auto;
 }
 
-.img-displayed {
+.main__picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +36,7 @@ header a {
   color: darkorchid;
 }
 
-.naglowek {
+.main__heading {
   color: #dd6c10;
 }
 
@@ -64,7 +64,11 @@ header a {
     color: #000
 }
 
-.week-summary {
-  padding: 16px;
-  border: 1px;
+
+
+.dom-test {
+  background: lightsteelblue;
+  color: darkorchid;
+  height: 800px;
+  width: 800px;
 }

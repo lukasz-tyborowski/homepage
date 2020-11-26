@@ -18,15 +18,16 @@
     </header>
 
     <main class="main">
-      <header id="top">
-        <h1 class="naglowek">Nauka CSS-a</h1>
-        <img class="img-displayed" src="pieski.jpg" alt="pieski" />
+      <header class="main__header" id="top">
+        <h1 class="main__heading">Nauka CSS-a</h1>
+        <img class="main__picture" src="pieski.jpg" alt="pieski" />
       </header>
 
-      <section id="notatki">
-        <h2>Notatki z kursu</h2>
+      <section class="notes" id="notatki">
+        <h2 class="notes__heading" >Notatki z kursu</h2>
+
         <article class="week-summary">
-          <h3>CSS = Cascading Style Sheets (Kaskadowe arkusze stylów)</h3>
+          <h3 class="week-summary__title">CSS = Cascading Style Sheets (Kaskadowe arkusze stylów)</h3>
           <p>- odpowiadają za prezentacje treści strony</p>
           <p>
             - nie mają jednej wersji (rozwój modułów), potocznie mówi się, że
@@ -42,7 +43,7 @@
           </p>
           <p>
             - cała specyfikacja jest na
-            <a href="https://www.w3.org/TR/CSS/">stronie w3c</a>
+            <a class="week-summary__link" href="https://www.w3.org/TR/CSS/">stronie w3c</a>
           </p>
         </article>
       </section>
@@ -62,7 +63,7 @@
     <footer class="footer">
       <b
         >Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic
-        ważnego. <a href="#top">Wróć na górę strony</a></b
+        ważnego. <a class="footer__link" href="#top">Wróć na górę strony</a></b
       >
     </footer>
     <script src="main.js"></script>

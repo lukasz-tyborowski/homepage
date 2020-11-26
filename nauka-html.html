@@ -18,15 +18,15 @@
     </header>
 
     <main class="main">
-      <header id="top">
-        <h1 class="naglowek">Nauka HTML-a</h1>
-        <img class="img-displayed" src="zmleka.jpg" alt="zmleka" />
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js">Nauka HTML-a</h1>
+        <img class="main__picture" src="zmleka.jpg" alt="zmleka" />
       </header>
 
-      <section id="notatki">
-        <h2>Notatki z kursu</h2>
+      <section class="notes" id="notatki">
+        <h2 class="notes__heading" >Notatki z kursu</h2>
         <article class="week-summary">
-          <h3>Czym jest HTML?</h3>
+          <h3 class="noets__title">Czym jest HTML?</h3>
           <p>- opakowuje i opisuje treść strony</p>
           <p>
             - mówi przeglądarce o strukturze dokumentu (i o tym co ma wszytać)
@@ -39,14 +39,14 @@
           <p>- aktualną rekomendowaną wersją jest 5.2</p>
           <p>
             - cała specyfikacja jest na
-            <a href="https://www.w3.org/TR/html52/">stronie w3c</a>
+            <a class="notes__link" href="https://www.w3.org/TR/html52/">stronie w3c</a>
           </p>
         </article>
       </section>
 
-      <section>
+      <section class="notes">
         <article class="week-summary">
-          <h3>Znaczniki w nawiasach ostrych - TRZEBA O NICH PAMIĘTAĆ!</h3>
+          <h3 class="week-summary__title">Znaczniki w nawiasach ostrych - TRZEBA O NICH PAMIĘTAĆ!</h3>
           <p>main - główna część dokumentu</p>
           <p>section - sekcje dokumentu, logiczny podział</p>
           <p>article - samodzielne treści</p>
@@ -64,7 +64,7 @@
     <footer class="footer">
       <b
         >Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic
-        ważnego. <a href="#top">Wróć na górę strony</a></b
+        ważnego. <a class="footer__link" href="#top">Wróć na górę strony</a></b
       >
     </footer>
     <script src="main.js"></script>

@@ -18,35 +18,36 @@
     </header>
 
     <main class="main">
-      <header id="top">
-        <h1 class="naglowek">Łukasz Tyborowski - Strona domowa</h1>
-        <img class="img-displayed" src="jebaniutki.jpg" alt="jebaniutki" />
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js">Łukasz Tyborowski - Strona domowa</h1>
+        <img class="main__picture" src="jebaniutki.jpg" alt="jebaniutki" />
       </header>
 
-      <section>
-        <h2>Kim jestem?!</h2>
-        <article>
-          <p>
+      <section class="about">
+        <article class="week-summary">
+        <h2 class="about__heading">Kim jestem?!</h2>
+          <p class="about__description">
             <em
               >Cześć! Jestem raczkującym padawanem sztuki frontendu.<br />
               Zamierzam poświęcić jak najwięcej wolnego czasu na naukę,<br />
               a tu będę zapisywał przeróżne mniej lub więcej przydatne
               rzeczy.<br />W wolnym czasie gram w pokera, a moje postępy można
               śledzić w
-              <a href="https://legalny-poker.pl/wyniki/30/185/megatabela/1"
+              <a class="about__link" href="https://legalny-poker.pl/wyniki/30/185/megatabela/1"
                 >Tabeli Wyników.</a
               ></em
             ><br />
-            <a href="#notatki">Przejdź do notatek.</a>
+            <a class="about__link" href="#notatki">Przejdź do notatek.</a>
           </p>
           <p><b>CONTENT IS THE KING - jak powiada mistrz ;)</b></p>
         </article>
       </section>
 
-      <section id="notatki">
-        <h2>Notatki z kursu</h2>
+      <section class="notes" id="notatki">
+        <h2 class="notes__heading">Notatki z kursu</h2>
+
         <article class="week-summary">
-          <h3>Czym jest HTML?</h3>
+          <h3 class="week-summary__title">Czym jest HTML?</h3>
           <p>- opakowuje i opisuje treść strony</p>
           <p>
             - mówi przeglądarce o strukturze dokumentu (i o tym co ma wszytać)
@@ -58,12 +59,10 @@
           </p>
           <p>- aktualną rekomendowaną wersją jest 5.2</p>
           <p>- cała specyfikacja jest na stronie w3c</p>
-        </article>
-      </section>
+      </article>
 
-      <section>
-        <h3>Znaczniki w nawiasach ostrych - TRZEBA O NICH PAMIĘTAĆ!</h3>
-        <article class="week-summary">
+      <article class="week-summary">
+        <h3 class="week-summary__title">Znaczniki w nawiasach ostrych - TRZEBA O NICH PAMIĘTAĆ!</h3>
           <p>main - główna część dokumentu</p>
           <p>section - sekcje dokumentu, logiczny podział</p>
           <p>article - samodzielne treści</p>
@@ -74,14 +73,15 @@
             od 1 do 6 w zaelżności od ważności tego nagłówka
           </p>
           <p>p - paragraf/akapit</p>
-        </article>
+      </article>
+
       </section>
     </main>
 
     <footer class="footer">
       <b
         >Wszystkie treści są efektem pracy nad szkoleniem. Brudnopis, nic
-        ważnego. <a href="#top">Wróć na górę strony</a></b
+        ważnego. <a class="footer__link" href="#top">Wróć na górę strony</a></b
       >
     </footer>
     <script src="main.js"></script>
