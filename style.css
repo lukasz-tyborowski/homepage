@@ -11,41 +11,12 @@
   border-radius: 2%;
 }
 
-body {
-  background: #f7f7ff;
-}
-
-h1 {
-  text-align: center;
-  color: navy;
-}
-
-p {
-  color: rgb(37, 1, 1);
-}
-
-h2 {
-  color: #1460aa;
-}
-
-a {
-  color: rgb(230, 154, 14);
-}
-
-header a {
-  color: darkorchid;
-}
-
 .main__heading {
   color: #dd6c10;
 }
 
-.special-header {
-  color: black;
-}
-
-.footer {
-  color: darkred;
+body {
+  background: #f7f7ff;
 }
 
 .navigation {
@@ -64,11 +35,31 @@ header a {
     color: #000
 }
 
+h1 {
+  text-align: center;
+  color: navy;
+}
 
+h2 {
+  color: #1460aa;
+}
 
-.dom-test {
-  background: lightsteelblue;
+p {
+  color: rgb(37, 1, 1);
+}
+
+a {
+  color: rgb(230, 154, 14);
+}
+
+header a {
   color: darkorchid;
-  height: 800px;
-  width: 800px;
+}
+
+.special-header {
+  color: black;
+}
+
+.footer {
+  color: darkred;
 }
