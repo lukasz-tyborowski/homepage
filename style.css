@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .main {
   background: rgb(255, 255, 195);
   max-width: 800px;
@@ -63,3 +71,4 @@ header a {
 .footer {
   color: darkred;
 }
+

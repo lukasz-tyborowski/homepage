@@ -67,3 +67,5 @@ deathStar.fire('brain')
 console.log(deathStar.name) //wypisuje tylko nazwę obiektu
 
 console.log(deathStar['name']) //nazwe własności podajemy jako string
+
+
