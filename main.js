@@ -15,24 +15,22 @@ const heading = document.querySelector(".dom-test--js");
 console.log(heading);
 
 function calculate(myNumber) {
-    return myNumber*7;
+  return myNumber * 7;
 }
-
 
 const myResult = calculate(1);
 
 console.log(myResult);
 
 function createContent(querySelectorContent, content) {
-    const element = document.querySelector(querySelectorContent);
-    element.innerHTML = content;
+  const element = document.querySelector(querySelectorContent);
+  element.innerHTML = content;
 }
 
-createContent('.about__heading--js', 'siema siema');
-
+createContent(".about__heading--js", "siema siema"); /* funkcja zmienia content w podanym selektorze */
 
 function helloWorld() {
-    console.log('witaj świecie')
+  console.log("witaj świecie");
 }
 helloWorld();
 
@@ -41,31 +39,26 @@ helloWorld();
 }
 helloWorld();*/
 
-
-
-
 const deathStar = {
-    diameter: 120000,
-    fire: (target) => {
-        console.log(`${target} destroyed`)
-    },
-    isOperating: true,
-    name: 'Death Star',
-    levels: 357,
-    population: 10000,
-    isLightOn: true,
-    commander: {
-        name: 'Darth Vader',
-        age: 44,
-    }
-}
+  diameter: 120000,
+  fire: (target) => {
+    console.log(`${target} destroyed`);
+  },
+  isOperating: true,
+  name: "Death Star",
+  levels: 357,
+  population: 10000,
+  isLightOn: true,
+  commander: {
+    name: "Darth Vader",
+    age: 44,
+  },
+};
 
-console.log (deathStar)
+console.log(deathStar);
 
-deathStar.fire('brain')
+deathStar.fire("brain");
 
-console.log(deathStar.name) //wypisuje tylko nazwę obiektu
+console.log(deathStar.name); //wypisuje tylko nazwę obiektu
 
-console.log(deathStar['name']) //nazwe własności podajemy jako string
-
-
+console.log(deathStar["name"]); //nazwe własności podajemy jako string
