@@ -2,8 +2,13 @@ html {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  background: linear-gradient(90deg, rgba(74,172,143,1) 0%, rgba(48,107,90,1) 35%, rgba(95,136,77,1) 100%);
-
+  background: rgb(74, 172, 143);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 172, 143, 1) 0%,
+    rgba(48, 107, 90, 1) 35%,
+    rgba(63, 88, 52, 1) 100%
+  );
 }
 
 *,
@@ -42,13 +47,13 @@ header {
 
 .navigation__link--homepage {
   color: rgb(83, 83, 83);
-
 }
 
 .div {
   margin: 10px;
   background: hsl(195, 53%, 79%, 0.3);
   border-radius: 5px;
+  min-width: 400px;
 }
 .main {
   max-width: 800px;
@@ -64,6 +69,7 @@ header {
 
 .main__heading {
   color: #dd1010;
+  min-width: 700px;
 }
 
 .about__heading {
@@ -90,4 +96,20 @@ a {
 
 .footer {
   color: darkred;
+}
+
+.form {
+  margin:10px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+}
+.form label {
+  display: block;
+}
+.form textarea {
+  width: 100%;
+  height: 150px;
 }
