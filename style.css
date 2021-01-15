@@ -113,3 +113,32 @@ a {
   width: 100%;
   height: 150px;
 }
+
+
+.main__grid {
+  display: grid;
+  grid-template-areas: "header header header"
+  "article . aside"
+  "footer footer footer";
+  grid-template-columns: [pierwsza] 1fr [druga] 64px [trzecia] 200px;
+  column-gap: 16px;
+  row-gap: 16px;
+  grid-template-rows: 100px;
+}
+
+.header__grid {
+  background: hotpink;
+  grid-area: 1 / 2 / 3 / 4;
+}
+
+.article__grid {
+  grid-area: article;
+}
+
+.aside__grid {
+  grid-area: aside;
+}
+
+.footer__grid {
+  grid-area: footer;
+}
