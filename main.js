@@ -6,14 +6,6 @@ console.log(`Siema, nazywam się Łukasz i witam Cię w moim pierdolniczku XD`);
 const firstName = "Łukasz";
 const age = 28;
 
-console.log(firstName);
-console.log(age);
-console.log(`Siema, nazywam się ${firstName} i mam ${age} lat.`);
-
-const heading = document.querySelector(".dom-test--js");
-
-console.log(heading);
-
 function calculate(myNumber) {
   return myNumber * 7;
 }
@@ -98,28 +90,40 @@ if (50 > 40) {
 */
 const myVariable = 9;
 
-switch (myVariable) { //zmienną wrzucamy jako parametr
+switch (
+  myVariable //zmienną wrzucamy jako parametr
+) {
   case 4:
-    console.log('hi 4');
+    console.log("hi 4");
     break;
   case 8:
-    console.log('hi 8');
+    console.log("hi 8");
     break;
   default:
-    console.log('default response') //ten kod się wykona, kiedy nie trafi na dwa poprzednie przypadki
+    console.log("default response"); //ten kod się wykona, kiedy nie trafi na dwa poprzednie przypadki
 }
-
 
 //zapis skrócony
-(32 < 20) ? console.log('to prawda') : console.log('to nie prawda');
+32 < 20 ? console.log("to prawda") : console.log("to nie prawda");
 
 if (32 > 20) {
-  console.log('to prawda')
+  console.log("to prawda");
 } else {
-  console.log('to nie prawda')
+  console.log("to nie prawda");
 }
 
-
-const result = (32 < 20) ? true : false;
+const result = 32 < 20 ? true : false;
 console.log(result); //wywołanie zmiennej
 //aby użyć linijkę kodu tj. w zapisie skróconym, potrzebny jest return
+
+//
+
+const button = document.querySelector(".action--js");
+
+
+
+
+button.addEventListener("click" , () => {
+  const heading = document.querySelector(".main__heading--js");
+  heading.innerHTML = "Witaj Drogi Odwiedzający, nazywam się Bill Hicks";
+});
