@@ -127,3 +127,11 @@ button.addEventListener("click" , () => {
   const heading = document.querySelector(".main__heading--js");
   heading.innerHTML = "Witaj Drogi Odwiedzający, nazywam się Bill Hicks";
 });
+
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open)');
+})
