@@ -6,15 +6,24 @@
     <title>tyborek - strona domowa</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- podpięcie zdalnego CSS zawierającego ikony Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header class="header">
-      <button class="hamburger hamburger--js" aria-label="Otwórz menu">Hambux</button>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        <!-- Przykładowe użycie ikony Font Awesome - fa-bars -->
+        <i class="fa fa-bars"></i>
+      </button>
       <nav class="navigation navigation--js">
-        <a class="navigation__link navigation__link--homepage" href="index.html"
-          >Strona główna</a
-        >
+        <a class="navigation__link navigation__link--homepage" href="index.html">
+          <span>Strona Główna</span>
+          <i class="fa fa-home"></i>
+        </a>
         <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
         <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
         <a class="navigation__link" href="formularz.html">Formularz</a>
@@ -30,7 +39,6 @@
             Łukasz Tyborowski - Strona domowa
           </h1>
           <button class="action--js">Change</button>
-          
         </header>
       </div>
 
@@ -103,7 +111,6 @@
           </table>
         </section>
       </div>
-
 
       <div class="div">
         <section class="notes" id="notatki">

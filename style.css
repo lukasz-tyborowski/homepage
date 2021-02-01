@@ -28,6 +28,7 @@ body {
   min-height: 60px;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -56,6 +57,7 @@ body {
   border-radius: 5px;
   min-width: 100px;
 }
+
 .main {
   max-width: 800px;
   margin: 60px 0 0 0; 
@@ -155,6 +157,11 @@ a {
   right: 10px;
   border: none;
   background: none;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+  color:red;
 }
 
 @media (min-width: 768px) {
