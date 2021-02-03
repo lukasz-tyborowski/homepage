@@ -161,7 +161,19 @@ a {
 
 .hamburger:hover{
   cursor: pointer;
-  color:red;
+}
+
+.week-summary__title::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: tomato;
+  border-radius: 50%;
+}
+
+.navigation__link:hover {
+  color:steelblue;
 }
 
 @media (min-width: 768px) {
